@@ -28,7 +28,7 @@
     width: 50%;
 
 }
-.haeder-righ ul li{
+.haeder-righ h3{
     color: red;
     list-style-type: none;
 }
@@ -43,13 +43,13 @@
     display: flex;
     justify-content: space-around;
 }
-.footer div{
+.footer ul{
     width: 150px;
     height: 150px;
     border: 1px solid rgb(231,231,231);
 
 }
-.footer div img{
+.footer ul img{
     width: 45px;
     height: 45px;
     margin: auto;
@@ -57,7 +57,7 @@
     display: flex;
     align-items: center;
 }
-.footer div p{
+.footer ul p{
     font-size: 16px;
     margin: auto;
     color: #000;
@@ -72,24 +72,24 @@
     margin-left: 110px;
     margin-top: 3px;
 }
-.haeder-righ ul li::before{
+.haeder-righ h3::before{
     content: '';
     position: absolute;
     background-color: #fff;
     width: 10px;
     height: 10px;
     border: 1px solid;
-    margin: auto;
-    left: 750px;
+  margin-top: 5px;
+    left: 707px;
 }
-.haeder-righ ul li::after{
+.haeder-righ h3::after{
     content: '';
     position: absolute;
     background-color: #fff;
     width: 30px;
     height: 1px;
     border: 1px solid;
-    margin: auto;
-   left:760px; 
-   margin-top: 5px;
+   
+   left:720px; 
+   margin-top:7px;
 }
