@@ -36,6 +36,7 @@
     width: 70%;
     border: 1px solid #fff;
     color: rgb(165,162,164);
+    margin-bottom: 20px;;
 
 }
 .footer{
@@ -47,6 +48,7 @@
     width: 150px;
     height: 150px;
     border: 1px solid rgb(231,231,231);
+    padding: 10px;
 
 }
 .footer ul img{
